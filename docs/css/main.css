@@ -79,7 +79,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	color: #ffdf00;
+	color: #FFA500;
 	outline: 0;
 }
 
@@ -91,7 +91,7 @@ a:hover, a:focus, a:active {
  */
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Montserrat-SemiBold", sans-serif;
-	color: #ffdf00;
+	color: #FFA500;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -340,8 +340,8 @@ button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
 button.stroke:hover, .button.stroke:hover {
-	border: 3px solid #ffdf00;
-	color: #ffdf00;
+	border: 3px solid #FFA500;
+	color: #FFA500;
 }
 
 
@@ -374,7 +374,7 @@ button.stroke:hover, .button.stroke:hover {
 	left: 0;
 	top: -3rem;
 	font-family: "Montserrat-Bold", sans-serif;
-	color: #ffdf00;
+	color: #FFA500;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -454,12 +454,12 @@ button.stroke:hover, .button.stroke:hover {
 .section-intro h1 {
 	font-family: "Montserrat-SemiBold", serif;
 	font-size: 3.6rem;
-	color: #ffdf00;
+	color: #FFA500;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: #ffdf00;
+	color: #FFA500;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -523,7 +523,7 @@ header .logo {
 }
 header .logo a {
 	font-family: 'Comic Sans MS';
-	color: #ffdf00;
+	color: #FFA500;
 	font-size: 41px;
 	margin: 60px;
 	padding: 5px;
@@ -578,11 +578,11 @@ header .toggle {
 	cursor: pointer;
 }
 .main-navigation li a:hover {
-	color: #ffdf00;
+	color: #FFA500;
 }
 
 .scolor {
-	color: #ffdf00;
+	color: #FFA500;
 }
 
 /**
@@ -696,7 +696,7 @@ header .toggle {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #ffdf00;
+	color: #FFA500;
 	font-family: "Montserrat-Bold";
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -743,7 +743,7 @@ header .toggle {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #ffdf00;
+	border-color: #FFA500;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -775,7 +775,7 @@ header .toggle {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #ffdf00;
+	color: #FFA500;
 }
 
 /**
@@ -906,7 +906,7 @@ header .toggle {
 }
 .about-content .info-list li strong {
 	font-family: "Montserrat-Bold", sans-serif;
-	color: #ffdf00;
+	color: #FFA500;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -998,7 +998,7 @@ header .toggle {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #ffdf00;
+	color: #FFA500;
 }
 #resume p {
 	color: #ffffff;
@@ -1016,7 +1016,7 @@ header .toggle {
 	display: block;
 	width: 1px;
 	height: 100%;
-	background: #ffdf00;
+	background: #FFA500;
 	position: absolute;
 	left: 35%;
 	top: 0;
@@ -1071,7 +1071,7 @@ header .toggle {
 	display: block;
 	height: 3px;
 	width: 50px;
-	background: #ffdf00;
+	background: #FFA500;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -1292,7 +1292,7 @@ header .toggle {
 }
 
 #interests .section-intro h5 {
-	color: #ffdf00;
+	color: #FFA500;
 }
 #interests .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -1321,7 +1321,7 @@ header .toggle {
 }
 .interests-list .icon i {
 	font-size: 5.4rem;
-	color: #ffdf00;
+	color: #FFA500;
 }
 .interests-list h3 {
 	color: #FFFFFF;
@@ -1331,6 +1331,42 @@ header .toggle {
 .interests-list .desc {
 	color: rgba(255, 255, 255, 0.6);
 }
+
+/**
+ * responsive:
+ * interests
+ * ------------------------------------------------------------------- 
+ */
+@media only screen and (max-width:1024px) {
+	.interests-list {
+	display: flex;
+	flex-wrap: wrap;
+	float: right;
+	margin-top: 1.2rem;
+	text-align: center;
+}
+}
+@media only screen and (max-width:768px) {
+	#interests {
+    padding-bottom: 6rem;
+	}
+	.interests-list {
+	display: flex;
+	flex-wrap: wrap;
+	float: right;
+	margin-top: 1.2rem;
+	text-align: center;
+}
+}
+@media only screen and (max-width:400px) {
+	#interests {
+    padding-bottom: 17rem;
+	}
+	.interests-list {
+	margin-left: 81px;
+	}
+}
+
 
 /** 
  * ===================================================================
@@ -1344,7 +1380,7 @@ header .toggle {
 	padding-bottom: 7.2rem;
 }
 #contact .section-intro h5 {
-	color: #ffdf00;
+	color: #FFA500;
 }
 #contact .section-intro p {
 	color: #ffffff;
@@ -1381,7 +1417,7 @@ header .toggle {
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: #ffdf00;
+	background: #FFA500;
 }
 #contact form .form-field label::after {
 	position: absolute;
@@ -1390,7 +1426,7 @@ header .toggle {
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #ffdf00;
+	border-right: 5px solid #FFA500;
 	content: "";
 }
 #contact input[type="text"],
@@ -1412,7 +1448,7 @@ header .toggle {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: #ffdf00;
+	border-color: #FFA500;
 	color: #FFFFFF;
 }
 #contact textarea {
@@ -1420,25 +1456,25 @@ header .toggle {
 	padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
-	border-color: #ffdf00;
+	border-color: #FFA500;
 	color: #FFFFFF;
 }
 #contact button.submitform {
-    font-size: 1.5rem;
+    font-size: 15px;
     display: block;
     letter-spacing: .2rem;
     height: 6.6rem;
     line-height: 7rem;
     padding: 0 5rem;
     margin-top: 4.8rem;
-    width: 30%;
-    background: #ffdf00;
+    width: 25%;
+    background: #FFA500;
     color: #000000;
     float: right;
     border-radius: 35px;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: #ffdf00;
+	background: #FFA500;
 }
 
 .contact-info {
@@ -1458,7 +1494,7 @@ header .toggle {
 	color: #FFFFFF;
 }
 .contact-info h5 {
-	color: #ffdf00;
+	color: #FFA500;
 }
 .contact-info p{
 	color: #ffffff;
@@ -1469,9 +1505,14 @@ header .toggle {
  * contact
  * ------------------------------------------------------------------- 
  */
+@media only screen and (max-width:768px) {
+	#contact button.submitform {
+    width: 50%;
+	}
+}
 @media only screen and (max-width:400px) {
 	#contact button.submitform {
-    width: 42%;
+    width: 55%;
 	}
 }
 
@@ -1483,7 +1524,7 @@ header .toggle {
  */
 footer {
 	background: #262626;
-	color: #ffdf00;
+	color: #FFA500;
 	padding: 1rem 0 1rem 0;
 	font-size: 1.4rem;
 	font-family: "Montserrat-Regular", sans-serif;
@@ -1492,7 +1533,7 @@ footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color: #ffdf00;
+	color: #FFA500;
 }
 footer .row {
 	max-width: 900px;
@@ -1509,7 +1550,7 @@ footer .footer-social {
 	top: -.3rem;
 }
 footer .footer-social i:hover{
-	color: #ffdf00;
+	color: #FFA500;
 }
 footer .footer-social li {
 	display: inline-block;
