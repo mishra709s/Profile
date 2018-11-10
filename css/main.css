@@ -868,11 +868,10 @@ header .toggle {
 	margin-left: 66px;
 }
 .intro-info img {
-	height: 15rem;
-	width: 15rem;
+	height: 20rem;
+	width: 20rem;
 	border-radius: 50%;
-	margin: .9rem 0 0 0;
-	float: left;
+	margin: -1.1rem 7.1rem 0 0;
 }
 .intro-info .lead {
 	text-align: left;
@@ -969,12 +968,12 @@ header .toggle {
 @media only screen and (max-width:600px) {
 	.intro-info {
 		text-align: center;
-		margin-top: 3rem;
+		margin-top: 1rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
-		float: none;
+		height: 10.6rem;
+		width: 10.6rem;
+		margin: 1.1rem;
 		display: inline-block;
 	}
 	.intro-info .lead {
