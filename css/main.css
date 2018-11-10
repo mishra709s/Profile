@@ -218,6 +218,7 @@ img.pull-left {
 }
 @media only screen and (max-width:600px) {
 	.bgrid {
+		width: auto;
 		padding: 0 10px;
 	}
 }
@@ -1350,6 +1351,7 @@ header .toggle {
     padding-bottom: 6rem;
 	}
 	.interests-list {
+	margin-left: 24px;
 	display: flex;
 	flex-wrap: wrap;
 	float: right;
@@ -1362,7 +1364,7 @@ header .toggle {
     padding-bottom: 17rem;
 	}
 	.interests-list {
-	margin-left: 81px;
+	margin-left: 70px;
 	}
 }
 
