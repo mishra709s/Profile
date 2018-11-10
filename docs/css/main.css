@@ -1273,7 +1273,7 @@ header .toggle {
 #interests {
 	background-color: black;
 	padding-top: 12rem;
-	padding-bottom: 27rem;
+	padding-bottom: 20rem;
 	color: white;
 	position: relative;
 }
@@ -1304,7 +1304,7 @@ header .toggle {
 	display: flex;
 	flex-wrap: wrap;
 	float: right;
-	margin-top: 1.2rem;
+	margin-top: 8.2rem;
 	text-align: center;
 }
 .interests-list .service {
