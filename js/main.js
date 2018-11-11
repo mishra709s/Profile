@@ -52,4 +52,12 @@ $(window).load(function () {
 	$('html, body').animate({scrollTop: 0}, 600);
 })
 
+/*---------------------------------------------------- */
+/* onclick Submit
+------------------------------------------------------ */
+    $('fieldset div button').click(function(event){
+        alert("Mail Functionality Is Yet Be Implemented.")
+    });
+
+
 })(jQuery);
