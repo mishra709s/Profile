@@ -16,7 +16,7 @@
    window.onscroll = function() {myFunction()};
 
 function myFunction() {
-    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+    if (document.body.scrollTop > 680 || document.documentElement.scrollTop > 680) {
         document.getElementById("navbar").style.backgroundColor = "black";
         document.getElementById("navbar").style.height = "30px";
     } else {
